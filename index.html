@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Pong</title>
+		<link rel="stylesheet" href="styles.css"/>
+		<!-- Import VT323 Font-->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+	</head>
+	<body onresize="LetterboxScale()">
+		<canvas id="main" width="800" height="450"></canvas>
+		<div id="screen"></div>
+		<script src="scripts/letterbox_scale.js"></script>
+		<script src="scripts/objects/gameObject.js"></script>
+		<script src="scripts/objects/paddle.js"></script>
+		<script src="scripts/objects/ball.js"></script>
+		<script src="scripts/input/inputController.js"></script>
+		<script src="scripts/input/keyboardController.js"></script>
+		<script src="scripts/input/gamepadController.js"></script>
+		<script src="scripts/input/inputManager.js"></script>
+		<script src="scripts/input/keyCallback.js"></script>
+		<script src="scripts/input/aiController.js"></script>
+		<script src="scripts/game.js"></script>
+	</body>
+</html>
